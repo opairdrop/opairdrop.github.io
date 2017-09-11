@@ -28,7 +28,7 @@
 			border-bottom: 0;
 		}
 
-		> .logoleft {
+		> .logo {
 			display: block;
 			margin-right: auto;
 			@include vendor('flex', '1');
@@ -47,26 +47,7 @@
 				vertical-align: middle;
 			}
 		}
-		> .logoright {
-			display: block;
-			margin-right: auto;
-			@include vendor('flex', '1');
-
-			a {
-				font-family: _font(family-alt);
-				font-size: 1.4em;
-				letter-spacing: 0.225em;
-				margin: 0 0.25em 0 0;
-				padding: 0;
-				text-transform: uppercase;
-				vertical-align: middle;
-			}
-
-			span {
-				vertical-align: middle;
-			}
-		}
-
+		
 		a[href="#navPanel"] {
 			@include icon;
 			-webkit-tap-highlight-color: rgba(0,0,0,0);
