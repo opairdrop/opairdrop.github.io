@@ -42,20 +42,25 @@
 				text-transform: uppercase;
 				vertical-align: middle;
 			}
-			> .logoright {
-				display: block;
-				margin-right: auto;
-				@include vendor('flex', '1');
 
-				a {
-					font-family: _font(family-alt);
-					font-size: 1.4em;
-					letter-spacing: 0.225em;
-					margin: 0 0.25em 0 0;
-					padding: 0;
-					text-transform: uppercase;
-					vertical-align: middle;
-				}
+			span {
+				vertical-align: middle;
+			}
+		}
+		> .logoright {
+			display: block;
+			margin-right: auto;
+			@include vendor('flex', '1');
+
+			a {
+				font-family: _font(family-alt);
+				font-size: 1.4em;
+				letter-spacing: 0.225em;
+				margin: 0 0.25em 0 0;
+				padding: 0;
+				text-transform: uppercase;
+				vertical-align: middle;
+			}
 
 			span {
 				vertical-align: middle;
