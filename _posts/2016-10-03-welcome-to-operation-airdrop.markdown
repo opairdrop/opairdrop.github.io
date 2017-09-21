@@ -7,3 +7,5 @@ image: /images/pic09.jpg
 ---
 
 This is a placeholder page, work in progress, etc.
+
+The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog. 
