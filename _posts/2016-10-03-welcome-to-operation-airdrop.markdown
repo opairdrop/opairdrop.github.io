@@ -6,7 +6,7 @@ categories: jekyll update
 image: /images/pic09.jpg
 ---
 
-This is a placeholder.
+This is a placeholder. The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog. 
 
 This is a default page.
 
