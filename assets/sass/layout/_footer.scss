@@ -12,6 +12,7 @@
 		width: calc(100% - 3em);
 		position: relative;
 		display: flex;
+		margin: 0 auto 7em;
 
 		> .inner {
 			@include vendor('display', 'flex');
