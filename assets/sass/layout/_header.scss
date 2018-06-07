@@ -186,7 +186,7 @@
 			}
 
 			a[href="#navPanel"] {
-				display: block;
+				display: none;
 
 				&:before {
 					float: right;
@@ -216,6 +216,7 @@
 			}
 
 			a[href="#navPanel"] {
+				display: none;
 				position: relative;
 				text-indent: 8em;
 				white-space: nowrap;
