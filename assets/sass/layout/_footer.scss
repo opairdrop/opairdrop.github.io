@@ -70,6 +70,12 @@
 			border-left: solid _size(border-width) _palette(border);
 			width: (100% / 3);
 		}
+		.board {
+			@include padding(4.5em, 3.25em);
+			@include vendor('flex-shrink', '0');
+			border-left: solid _size(border-width) _palette(border);
+			width: (100% / 3);
+		}
 
 		.copyright {
 			border-top: solid _size(border-width) _palette(border);
