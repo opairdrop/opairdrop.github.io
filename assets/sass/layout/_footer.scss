@@ -10,11 +10,11 @@
 		background: _palette(bg);
 		overflow-x: hidden;
 		width: calc(100% - 3em);
+		position: relative;
+		display: flex;
 
 		> .inner {
 			@include vendor('display', 'flex');
-			margin: 0 auto;
-			max-width: 84em;
 		}
 
 		.info {
