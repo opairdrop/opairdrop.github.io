@@ -123,6 +123,7 @@
 		}
 
 		@include breakpoint(medium) {
+			@include vendor('flex-direction', 'column');
 			> .inner {
 				@include vendor('flex-wrap', 'wrap');
 			}
@@ -176,14 +177,24 @@
 		}
 
 		@include breakpoint(xsmall) {
+			border-bottom: solid _size(border-width);
+			border-color: _palette(border);
+			margin-bottom: 0;
+			width: 100%;
+
+			&.style1 {
+				border-color: _palette(accent1, border);
+			}
+
+			&.style2 {
+				border-color: _palette(accent2, border);
+			}
 			> .inner {
 				width: 100%;
 			}
-
 			.info {
 				@include padding(2em, 1.5em);
 			}
-
 			.contact {
 				@include padding(2em, 1.5em);
 			}
