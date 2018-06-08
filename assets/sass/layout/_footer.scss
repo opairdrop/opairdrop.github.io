@@ -124,24 +124,54 @@
 
 		@include breakpoint(medium) {
 			> .inner {
-				width: calc(100% - 3em);
-			}
-
-			.info {
-				@include padding(2.5em, 2.25em);
-
-				.team {
-					padding-left: 2.25em;
-				}
+				@include vendor('flex-wrap', 'wrap');
 			}
 
 			.contact {
-				@include padding(2.5em, 2.25em);
+				border-left: none;
+				width: 100%;
+				position: relative;
+
+				&:before {
+					@include vendor('transform', 'translateX(-50%)');
+					background-color: _palette(border);
+					content: '';
+					height: _size(border-width);
+					left: 0;
+					position: absolute;
+					top: 0;
+					width: 200vw;
+				}
+			}
+		}
+
+		@include breakpoint(small) {
+			> .inner {
+				width: calc(100% - 2em);
+			}
+
+			.info {
+				.about {
+					width: 100%;
+					margin-bottom: (_size(element-margin) * 0.5);
+				}
+
+				.team {
+					padding-left: 0;
+					width: 100%;
+				}
 			}
 
 			.copyright {
-				padding-bottom: 3em;
-				padding-top: 3em;
+				padding-bottom: 2em;
+				padding-top: 2em;
+
+				li {
+					display: block;
+					border-left: 0;
+					margin-left: 0;
+					padding-left: 0;
+				}
 			}
 		}
 
