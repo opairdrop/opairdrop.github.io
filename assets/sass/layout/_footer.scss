@@ -9,7 +9,6 @@
 	#footer {
 		background: _palette(bg);
 		overflow-x: hidden;
-		width: calc(100% - 3em);
 		position: relative;
 		display: flex;
 		margin: 0 auto 7em;
@@ -100,6 +99,7 @@
 		}
 
 		@include breakpoint(large) {
+			width: calc(100% - 3em);
 			> .inner {
 				width: calc(100% - 3em);
 			}
@@ -123,6 +123,7 @@
 		}
 
 		@include breakpoint(medium) {
+			width: calc(100% - 3em);
 			@include vendor('flex-direction', 'column');
 			> .inner {
 				@include vendor('flex-wrap', 'wrap');
@@ -147,6 +148,7 @@
 		}
 
 		@include breakpoint(small) {
+			width: calc(100% - 2em);
 			> .inner {
 				width: calc(100% - 2em);
 			}
